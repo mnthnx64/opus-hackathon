@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+frontend/.next/
+frontend/out/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Cache
+.pytest_cache/
+backend/.pytest_cache/
+
+# uv
+backend/uv.lock
